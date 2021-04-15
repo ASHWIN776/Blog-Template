@@ -61,16 +61,24 @@ nav ul{
     border-style: solid;
     border-color: #DA0090;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li{
     padding: 0.3rem 1rem;
 }
 
+/* included this to have more space between the boxes and lesser in at the corners */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38rem;
+    padding: 1.5rem 0;
+}
 
 section article{
     display: flex;
-    margin-bottom: 6rem;
 }
 
 article img{
@@ -87,8 +95,8 @@ hr{
     border-width: 3px 0;
     border-style: solid;
     border-color: #DA0090;
+    margin: 0;
 }
-
 
 footer {
     text-align: center;
