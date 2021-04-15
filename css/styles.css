@@ -9,6 +9,28 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper{
+    width: 70rem;
+    margin: 0 auto;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -31,28 +53,43 @@ header{
     font-weight: bold;
 }
 
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #DA0090;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 0.3rem 1rem;
+}
 
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kavivanar', cursive;
-    font-weight: normal;
+section article{
+    display: flex;
+    margin-bottom: 6rem;
 }
-h2 {
-    font-size: 2rem;
-    color: #A51F10;
-    margin: 0;
+
+article img{
+    margin-right: 1.5rem;
+    border-radius: 5%;
 }
-a {
-    color: #DA0090;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 .posted {
     font-size: 0.8rem;
     color: #89A611;
 }
+
+hr{
+    border-width: 3px 0;
+    border-style: solid;
+    border-color: #DA0090;
+}
+
+
 footer {
     text-align: center;
     font-size: 0.8rem;
