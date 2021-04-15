@@ -13,9 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
     font-weight: normal;
 }
+
 h2 {
     font-size: 2rem;
-    color: #A51F10;
+    color: #A51F10; 
     margin: 0;
 }
 a {
@@ -64,7 +65,7 @@ nav ul{
     margin: 0;
 }
 
-nav ul li{
+nav li{
     padding: 0.3rem 1rem;
 }
 
@@ -75,6 +76,7 @@ section{
     justify-content: space-between;
     height: 38rem;
     padding: 1.5rem 0;
+    border-bottom: 2px solid #DA0090;
 }
 
 section article{
@@ -91,16 +93,11 @@ article img{
     color: #89A611;
 }
 
-hr{
-    border-width: 3px 0;
-    border-style: solid;
-    border-color: #DA0090;
-    margin: 0;
-}
-
 footer {
     text-align: center;
     font-size: 0.8rem;
+    border-top: 2px solid #a61f11;
+    margin-top: 1rem;
 }
 
 footer ul{
